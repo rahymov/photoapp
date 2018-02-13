@@ -15,6 +15,10 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'simple_form', '~> 3.5'
+gem 'devise', '~> 4.4', '>= 4.4.1'
+gem 'twitter-bootstrap-rails', '~> 4.0'
+gem 'devise-bootstrap-views', '~> 0.0.11'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 
 group :development, :test do
@@ -23,6 +27,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem "pg", "~> 0.18" 
 end
 
 group :development do
@@ -38,5 +43,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do 
-  gem 'pg', '~> 1.0'
+  gem "pg", "~> 0.18" 
 end
