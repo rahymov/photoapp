@@ -19,6 +19,8 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise-bootstrap-views', '~> 0.0.11'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'stripe', '~> 3.9', '>= 3.9.2'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 
 
 group :development, :test do

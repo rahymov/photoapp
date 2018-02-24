@@ -20,3 +20,7 @@
 .DS_Store
 app/assets/images/234.jpg
 /public/images/
+# Ignore application configuration
+/config/application.yml
+.env.development
+
