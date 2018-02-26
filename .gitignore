@@ -23,4 +23,5 @@ app/assets/images/234.jpg
 # Ignore application configuration
 /config/application.yml
 .env.development
+.bash_profile
 
