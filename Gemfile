@@ -16,12 +16,14 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.4', '>= 4.4.1'
-gem 'twitter-bootstrap-rails', '~> 4.0'
+gem 'twitter-bootstrap-rails', '~> 4.0', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 gem 'devise-bootstrap-views', '~> 0.0.11'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'stripe', '~> 3.9', '>= 3.9.2'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
-
+gem 'carrierwave', '~> 1.2', '>= 1.2.2'
+gem 'mini_magick', '~> 4.8'
+gem 'fog', '~> 1.42'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
